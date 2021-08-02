@@ -1,0 +1,353 @@
+.homepageBottom{display: none;}
+.MOBSUB{display: none;}
+.USPS, .PRpageBottom{display: none;}
+
+
+#PR_Header{width: 100%; display: flex; justify-content: center; }
+#PR_Header .PR_Wrapper{display: flex; flex-direction: column; justify-content: center; align-items: center; width: 90%; padding-top: 50px; border-radius: 10px;}
+#PR_Header .PR_Wrapper .PR_Header_Img{display: flex; margin-bottom: 20px;}
+#PR_Header .PR_Wrapper .PR_Header_Img img{width: 100%;}
+#PR_Header .PR_Wrapper .PR_ShopAll, #PR .PR_Wrapper .PR_ShopAll{display: flex;}
+#PR_Header .PR_Wrapper .PR_ShopAll a, #PR .PR_Wrapper .PR_ShopAll a{background-color: #2c2c2b; color: #fee420; padding: 10px 15px; font-size: 50px; border: 1.5px solid #fff; font-family: futura-pt,sans-serif; font-weight: 700;}
+.PR_Heading{font-size: 35px; text-transform: uppercase; font-weight: 600; font-family: "Oswald","Source Sans Pro",Arial,"Helvetica Neue",sans-serif;}
+
+
+/* Product Region Pages */
+#PR{width: 100%; display: flex; justify-content: center; padding: 20px 0px;  background-attachment: fixed; background-size: 100%;}
+#PR.PR_Black{background-color: #000;}
+#PR.PR_Red{background-color: #e40813;}
+#PR.PR_White{background-color: #fff;}
+#PR.PR_DIY{background-image: url(https://images.its.co.uk//themes/DIY/background.jpg); flex-direction: column; align-items: center;}
+#PR.PR_Outdoor{background-color: #9FAA92; flex-direction: column; align-items: center;}
+#PR.PR_JobsDone{background-image: url(https://its-london.s3-eu-west-1.amazonaws.com/themes/JOBSDONE/background.jpg);}
+#PR.PR_Flash{background-image: url(https://its-london.s3-eu-west-1.amazonaws.com/themes/BARGAINBUNDLES/background.jpg); background-position: top; will-change: transform;}
+#PR.PR_Flash_Main{background-image: url(https://its-london.s3-eu-west-1.amazonaws.com/themes/FLASHDEALS/background.jpg); background-position: top; will-change: transform;}
+#PR.PR_Backtowork{background-image: url(https://images.its.co.uk/category-content/back-to-work/Background.jpg);}
+#PR.PR_Xmas{background: linear-gradient(0deg,rgba(238,238,238,1),rgba(255,255,255,1));}
+#PR.PR_BuyAgain{}
+#PR.PR_Recommended{padding-top: 0px;}
+#PR.PR_Basket{padding: 0px;}
+#PR.PR_Clearance{padding: 0px;}
+#PR.PR_Clearance, #PR_Header.PR_Clearance{background-image: url(https://its-london.s3-eu-west-1.amazonaws.com/CMS/2019-Q4/Clearance/clearanceBackground.jpg); background-attachment: fixed; background-size: 100%;}
+#PR.PR_UpdatePref{padding: 30px 0px 0px 0px; margin-top: 20px;}
+
+
+/* Product Region Wrappers */
+#PR.PR_JobsDone .PR_Wrapper{width: 90%; background-color: #fefefebf;}
+#PR.PR_BuyAgain .PR_Wrapper, #PR.PR_PowerDeals .PR_Wrapper{padding-top: 0px;}
+#PR.PR_Flash .PR_Wrapper .PR_Categories{width: 1200px;}
+#PR.PR_Flash .PR_Wrapper h2{display: flex; width: 100%; margin: 0 auto; justify-content: center; align-items: center; color: #fff; font-size: 4rem; text-align: center; font-family: 'Montserrat',sans-serif; font-weight: 900; text-transform: uppercase; margin-bottom: 15px; }
+.PR_Flash--footer{}
+#PR.PR_Basket .PR_Wrapper{padding-top: 0px;}
+#PR.PR_Basket .PR_Wrapper .PR_Prod .PR_Prod_Item{width: 287px;}
+#PR.PR_Outdoor .PR_Wrapper{background-color: #fff; width: 1200px; padding: 10px 0px 0px 0px;}
+#PR.PR_UpdatePref .PR_Wrapper{width: 100%; padding-top: 0px;}
+#PR.PR_UpdatePref .PR_Wrapper .PR_Prod .PR_Prod_Item{margin: 0px 2.5px;}
+
+
+/* product region FLASH DEALS Custom */
+#PR.PR_Flash .PR_Wrapper{padding-top: 0px;}
+#PR.PR_Flash .PR_back_wrapper{padding-top: 0px !important; padding-right: 20px; align-items: flex-end;}
+#PR.PR_Flash .PR_back_wrapper a{color: #fff; font-size: 18px; font-family: Montserrat,sans-serif; font-weight: 900; text-transform: uppercase;}
+#PR.PR_Flash .PR_Flash--shop{background-color: #fff; color: #fd0400; text-align: center; font-size: 70px; font-weight: 800; font-family: futura-pt,sans-serif; text-transform: uppercase; padding: 20px; border-radius: 5px; margin-bottom: 40px;}
+#PR.PR_Flash .PR_Flash--shop:hover{text-decoration: underline;}
+.PR_Spinner{width: 25px !important;}
+
+
+/* FLASH Main custom styling */
+#PR.PR_Flash_Main h2{display: flex; width: 100%; margin: 0 auto; justify-content: center; align-items: center; color: #e4223a; font-size: 4rem; text-align: center; font-family: Montserrat,sans-serif; font-weight: 900; text-transform: uppercase; margin-bottom: 15px;}
+
+
+/* Back button */
+#PR #backBtn{width: 1200px; display: flex; justify-content: flex-end; align-items: flex-end; padding: 10px;}
+#PR #backBtn a{font-size: 14px;}
+#PR #backBtn a:hover{text-decoration: underline;}
+
+#PR .PR_Wrapper{display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; padding-top: 50px; border-radius: 10px;}
+#PR.PR_Vaunt{background: #000;}
+#PR .PR_Wrapper .PR_Title{display: flex; width: 100%; justify-content: center; align-items: center;}
+#PR .PR_Wrapper .PR_Title > h2{text-align: center; font-family: futura-pt, Arial,Helvetica,sans-serif; text-transform: uppercase; font-size: 40px; font-weight: 800; margin: 50px 0px 20px 0px;}
+#PR .PR_Wrapper .PR_Title > h4{text-align: center; font-family: futura-pt, Arial,Helvetica,sans-serif; text-transform: uppercase; font-size: 40px;}
+#PR .PR_Wrapper .PR_Title > .PR_Checkout_BTN{text-align: center; font-family: futura-pt, Arial,Helvetica,sans-serif; text-transform: uppercase; font-size: 25px; font-weight: 700; background-color: #1ca902; color: #fff; padding: 10px 20px; margin: 10px 0; border-radius: 5px;}
+#PR .PR_Wrapper .PR_Title > .PR_Checkout_BTN:hover{text-decoration: underline;}
+#PR .PR_Wrapper .PR_Title_Bottom{justify-content: center;}
+#PR .PR_Wrapper .PR_Prod{width: 100%; display: flex; flex-wrap: wrap; justify-content: center; padding: 10px 0px; border-radius: 15px; margin-bottom: 20px;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item{position: relative; background-color: #fff; margin: 10px 1%; width: 300px; border-radius: 10px; border: 1px solid #d1d1d1; box-shadow: 0 4px 6px -2px rgba(0,0,0,.2); padding: 10px 10px 10px 0px; min-height: 225px;}
+
+.PR_Item_title{min-height: 61px; display: inline-block; align-items: center; text-align: center; padding: 10px; width: 100%;}
+.PR_Item_title a, .PR_Item_title span{font-size: 16px; font-weight: 600; text-align: left; font-family: futura-pt,sans-serif;}
+.PR_Item_title .PR_Cat_Ref{width: 100%; display: flex; justify-content: center; align-items: center; font-size: 13px; color: #888888; font-weight: 500;}
+
+
+.PR_Item_Freebie_CC{min-height: 19px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.PR_Item_Freebie_CC > span{width: 100%; text-align: center; font-size: 15px; font-weight: 600; font-family: 'futura-pt',sans-serif; color: red; text-transform: uppercase; padding-left: 10px;}
+
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .leftCol{position: relative;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .leftCol .PR_Overlay{position: absolute; width: 40px; top: 0; right: 0px;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .leftCol .PR_Img{width: 100%;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol{display: flex; flex-direction: column; justify-content: flex-end;; align-items: flex-end;}
+
+.PR_Stock_In, .PR_Stock_Pre, .PR_Stock_Out{font-family: futura-pt,sans-serif; font-weight: 600; font-size: 16px; margin: 5px 0; text-align: right; text-transform: uppercase;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .PR_Stock_In{color: #1ca902;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .PR_Stock_Pre{color: orange;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .PR_Stock_Out{color: red;}
+
+.PR_Item_WasSave{display: flex; flex-direction: column; min-height: 41px;}
+
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .DF_Item_Was{font-family: 'futura-pt',sans-serif; text-decoration: line-through; font-size: 14px; text-align: right;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .DF_Item_Ex{font-family: 'Oswald',sans-serif; color: #212121; font-size: 25px; font-weight: 600; display: flex; justify-content: center; align-items: center;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .DF_Item_Ex > span{display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; padding: 0 0 0 2px;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .DF_Item_Ex > span span{font-family: 'Oswald',sans-serif; font-weight: 600; text-transform: uppercase; font-size: 10px;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .DF_Item_Inc{font-family: 'futura-pt',sans-serif; font-size: 13px; margin-bottom: 5px; font-weight: 400;}
+
+.DF_Item_Btn_IN, .DF_Item_Btn_Pre, .DF_Item_Btn_Out, .DF_Item_Btn_Info, .PR_Item_MoreInfo_Btn{width: 100%; text-align: center; padding: 7px 0px; border-radius: 3px; font-size: 14px; font-weight: 500; font-family: 'futura-pt',sans-serif;}
+.DF_Item_Btn_IN:hover, .DF_Item_Btn_Pre:hover, .DF_Item_Btn_Out:hover, .DF_Item_Btn_Info:hover{text-decoration: underline;}
+.DF_Item_Btn_Info{background-color: #1ca902; color: #fff; border: 1px solid #d6d6d6;}
+.DF_Item_Btn_IN{background-color: #1ca902; color: #fff;}
+.DF_Item_Btn_Pre{background-color: orange; color: #fff;}
+
+.PR_Item_MoreInfo_CC{width: 100%; display: flex; margin: 5px 0px;}
+.PR_Item_MoreInfo_Btn{background-color: #0081b9; color: #fff; text-transform: uppercase;}
+.PR_Item_MoreInfo_Btn:hover{text-decoration: underline;}
+
+.PR_TITLE_IMG{width: 1517px; box-shadow: 0 4px 6px -2px rgba(0,0,0,.2);}
+.desktop-image{display: block;}
+.mobile-image{display: none;}
+
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .PR_Oos{display: flex; justify-content: center; align-items: center; position: absolute; background-color: #ffffffd1; height: 100%; width: 100%; border-radius: 10px; top: 0; left: 0;}
+#PR .PR_Wrapper .PR_Prod .PR_Prod_Item .PR_Oos h3{font-family: futura-pt,sans-serif; font-weight: 600; font-size: 35px; color: red; font-weight: 700;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#PR .PR_Wrapper .PR_Saving{color: red; font-weight: 600; font-size: 16px; font-family: 'futura-pt',sans-serif;}
+#PR .PR_Wrapper #PR_Category{display: block; width: 1390px;}
+#PR .PR_Wrapper #PR_Category h2{text-align: center; font-family: futura-pt, Arial,Helvetica,sans-serif; text-transform: uppercase; font-size: 40px; font-weight: 800; margin: 50px 0px 20px 0px;}
+#PR .PR_Wrapper #PR_Category div{width: 33.3%;}
+#PR .PR_Wrapper #PR_Category div a > img{width: 100%;}
+#PR .PR_Wrapper #PR_Paypal{margin: 20px 0px; width: 1390px;}
+#PR .PR_Wrapper #PR_Paypal > img{width: 100%; padding: 0px 7px;}
+
+.JD_Title > h2{text-align: center; font-family: futura-pt, Arial,Helvetica,sans-serif; text-transform: uppercase; font-size: 40px; font-weight: 800; margin: 50px 0px 20px 0px;}
+
+.PR_Heading_Title{display: flex; justify-content: center; align-items: center; width: 100%; color: #fff; font-size: 40px; font-family: 'futura-pt',sans-serif; text-align: center; font-weight: 900; margin-bottom: 10px;}
+
+/* saving as a percentage */
+.savePercentage{color: red; font-weight: 600; font-size: 16px; font-family: 'futura-pt',sans-serif;}
+
+/* Added to basket popup */
+#PR_MiniPopup_Background{width: 100%; height: 100%; top: 0; position: absolute; visibility: hidden; display: none; background-color: rgba(22,22,22,0.5); z-index: 999;}
+#PR_MiniPopup_Background:target{visibility: visible; display: block;}
+#PR_MiniPopup{position: relative; margin: 0 auto; top: 25%; width: 990px; background-color: #eaeaea; padding: 15px;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC{display: flex; width: 100%; justify-content: space-between; align-items: center;}
+#PR_MiniPopup .PR_MiniPopup_Heading h2{background: 0; font-family: futura-pt,sans-serif; font-weight: 800!important; font-size: 2.5rem; text-transform: uppercase; height: 100%; width: 100%; padding: 0; align-items: center; justify-content: center; display: flex;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item {background-color: #fff; max-width: 25%; width: 25%; margin: 5px; padding: 5px 0px; min-height: 370px;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Title{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Title > img{width: 70px;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Title > a{text-align: center; margin: 10px 0px; font-family: futura-pt,sans-serif; font-size: 15px; font-weight: 500; min-height: 38px;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Img{display: flex; width: 100%; justify-content: center; align-items: center;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Img .MiniPopup_Img{width: 120px;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing{min-height: 90px; display: flex; flex-direction: column; justify-content: center;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_Was{font-size: 14px; font-weight: 500 !important; min-height: 20px; text-decoration: line-through;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_Saving{font-size: 18px; color: red; min-height: 23px;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_ExVat{font-size: 25px; color: #252525; font-weight: 700 !important; flex-direction: row;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_ExVat > span{display: flex; flex-direction: column; justify-content: flex-start; width: 25px; padding-left: 5px;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_ExVat > span span{font-size: 10px; align-items: flex-start;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_IncVat{font-size: 14px; font-weight: 500 !important; min-height: 20px; text-transform: none;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing span::before{content: "";}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB{display: flex; flex-direction: column; padding: 0px 10px;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_MoreInfo_CC{}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_MoreInfo_CC::before{content: "";}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_MoreInfo_CC > a{margin-top: 5px; width: 100%; text-align: center; padding: 7px 0px; border-radius: 3px; font-size: 14px; font-weight: 500 !important; font-family: 'futura-pt',sans-serif; background-color: #0081b9; color: #fff; text-transform: uppercase;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_MoreInfo_CC > a:hover{text-decoration: underline;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_Btn_IN{margin: 5px 0px; width: 100%; text-align: center; padding: 7px 0px; border-radius: 3px; font-size: 14px; font-weight: 500 !important; font-family: 'futura-pt',sans-serif; background-color: #1ca902; color: #fff; text-transform: uppercase;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_Btn_IN:hover{text-decoration: underline;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_Btn_Pre{margin: 5px 0px; width: 100%; text-align: center; padding: 7px 0px; border-radius: 3px; font-size: 14px; font-weight: 500 !important; font-family: 'futura-pt',sans-serif; background-color: orange; color: #fff; text-transform: uppercase;}
+#PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_Btn_Pre:hover{text-decoration: underline;}
+
+.MiniB_Was, .MiniB_Saving, .MiniB_ExVat, .MiniB_IncVat{display: flex; justify-content: center; align-items: center; font-family: futura-pt,sans-serif; font-weight: 700;}
+.MiniB_MoreInfo_Btn, .PR_MiniPopup_ATB a{display: flex; width: 100%; justify-content: center; align-items: center;}
+.PR_MiniB_AddedMsg{color: #1ca902;}
+.PR_MiniB_AddedMsg:before{content: "\f00c"; font-family: "Font Awesome 5 Free"; font-size: 35px; color: #1ca902; padding-right: 10px;}
+.PR_MiniPopup_Close{display: flex; justify-content: flex-end;}
+.PR_MiniPopup_Close span{cursor: pointer; font-size: 16px;}
+
+
+/* Product Class */
+#PR.PR_DIY .PR_Wrapper .PR_Prod_Item{min-height: 330px;}
+.PR_Prod_Class{display: flex; width: 100%; justify-content: center; align-items: center;}
+.PR_Prod_Class .PR_Class_Outer{width: 50%; margin: auto; padding: 2px 2px 2px 5px; border-radius: 5px;}
+.PR_Prod_Class .PR_Class_Outer span{background-color: #fff; width: 100%; display: flex; justify-content: center; align-items: center; font-weight: 600; font-size: 13px; padding: 5px 0px; text-transform: uppercase;}
+.PR_Class_DIY{background-color: #6dd0f7;}
+.PR_Class_DIY span{color: #6dd0f7;}
+.PR_Class_Trade{background-color: #999997;}
+.PR_Class_Trade span{color: #999997;}
+
+.PR_Class_General{background-color: #FF6600;}
+.PR_Class_General span{color: #FF6600;}
+
+.PR_Class_Heavy{background-color: #997A3D;}
+.PR_Class_Heavy span{color: #997A3D;}
+
+.PR_Class_Light{background-color: #14e67b;}
+.PR_Class_Light span{color: #14e67b;}
+
+.PR_Class_Premium{background-color: #6000BF;}
+.PR_Class_Premium span{color: #6000BF;}
+
+#PR .PR_Class_TopRange{background-color: #FDB827; width: 65%;}
+.PR_Class_TopRange span{color: #FDB827;}
+.PR_Class_TopRange span::before{font-family: "Font Awesome 5 Free"; content: "\f005"; vertical-align: middle; font-weight: 900; padding-right: 5px;}
+
+
+/* PR Subheading */
+#PR_SubHeading.PR_ClearanceSubHead{display: flex; width: 1200px; margin: 0 auto; background-color: #2c2c2c; padding: 20px; justify-content: center; align-items: center; border: 3px solid #fff; margin-bottom: 20px;}
+#PR_SubHeading.PR_ClearanceSubHead a{width: 100%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+#PR_SubHeading.PR_ClearanceSubHead a > h2{font-family: futura-pt, sans-serif; font-size: 3rem; font-weight: 700; color: #fdd604;}
+#PR_SubHeading.PR_ClearanceSubHead a > button{font-size: 3rem; background-color: #ffdb18; padding: 20px; border-radius: 10px; font-family: futura-pt,sans-serif; font-weight: 800; color: #2c2c2c; margin: 20px 0px 10px 0px; cursor: pointer;}
+
+
+/* outdoor landing page */
+#PR.PR_Outdoor .PR_Wrapper .PR_Prod .PR_Prod_Item{width: 276px;}
+
+
+/* Media Queries */
+@media only screen and (max-width: 1720px){.PR_TITLE_IMG{width: 1190px;}}
+@media only screen and (max-width: 1570px){#PR .PR_Wrapper #PR_Category, #PR .PR_Wrapper #PR_Paypal{width: 100%;}}
+@media only screen and (max-width: 1216px){
+  #PR .PR_Wrapper{width: 100%;}
+  #PR .PR_Wrapper .PR_Title{flex-direction: column;}
+  #PR .PR_Wrapper .PR_Prod{width: 100%;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item{width: 227px;}
+  .PR_Item_title a, .PR_Item_title span{font-size: 14px;}
+  .DF_Item_Btn_IN, .DF_Item_Btn_Pre, .DF_Item_Btn_Out{font-size: 14px;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .PR_Oos h3{font-size: 30px;}
+  .PR_TITLE_IMG{width: 100%;}
+}
+
+
+@media only screen and (max-width: 1200px){
+  #PR_MiniPopup_Background #PR_MiniPopup{width: 768px;}
+  #PR_MiniPopup_Background #PR_MiniPopup h2{font-size: 1.8rem;}
+}
+@media only screen and (max-width: 990px){
+  #PR .PR_Wrapper .PR_Prod{width: 100%; justify-content: center;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item {width: 30%;}
+}
+@media only screen and (max-width: 767px){
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .leftCol{text-align: center;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .leftCol .PR_Overlay{right:0;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .leftCol .PR_Img{width: 100%;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol{align-items: center;}
+  .DF_Item_Btn_IN, .DF_Item_Btn_Pre, .DF_Item_Btn_Out{width: 100%; padding: 5px 0px; text-align: center; font-size: 16px;}
+  .PR_Item_title{text-align: center; padding: 14px 0px; min-height: 82px;}
+  .desktop-image{display: none;}
+  .mobile-image{display: block;}
+  #PR_SubHeading.PR_ClearanceSubHead{width: 100%; padding: 10px;}
+  #PR_SubHeading.PR_ClearanceSubHead a>h2{font-size: 2rem; text-align: center;}
+  #PR_SubHeading.PR_ClearanceSubHead a>button{font-size: 1.75rem; width: 100%; margin: 10px 0;}
+  #PR.PR_Clearance .PR_Wrapper{padding: 10px;}
+}
+@media only screen and (max-width: 640px){
+  .PR_Heading{font-size: 1.5rem;}
+  #PR.PR_UpdatePref{padding: 0px;}
+  #dealsLayoutContainer{padding: 0px; width: 100%;}
+  #PR_Header{padding: 0px}
+  #PR_Header .PR_Wrapper{width: 100%; padding: 0px;}
+  #PR_Header .PR_Wrapper .PR_ShopAll a, #PR .PR_Wrapper .PR_ShopAll a{font-size: 25px;}
+  #PR{padding: 0px 0px 20px 0px;}
+  #PR .PR_Wrapper{padding-top: 20px; width: 97% !important;}
+  #PR .PR_Wrapper .PR_Prod{display: flex; justify-content: flex-start; align-items: center;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item{width: 48%; min-height: 400px; padding: 0px 5px 10px 5px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .PR_Saving span{width: 75%;}
+  .PR_Item_title{min-height: 72px; padding: 15px 0 0 0; margin-bottom: 10px;}
+  .PR_Item_title a, .PR_Item_title span{font-size: 15px;}
+  .PR_Stock_In, .PR_Stock_Pre, .PR_Stock_Out{font-size: 15px;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol{min-height: 185px;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .DF_Item_Was{font-size: 15px;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .DF_Item_Ex{font-size: 25px;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .rightCol .DF_Item_Inc{font-size: 15px;}
+  .DF_Item_Btn_IN, .DF_Item_Btn_Pre, .DF_Item_Btn_Out{padding: 8px 0px; font-size: 15px;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .PR_Oos h3{font-size: 25px;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item .leftCol .PR_Img{width: 100%;}
+  .PR_Item_Freebie_CC{min-height: 30px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+  .PR_Item_Freebie_CC > span{width: 100%; text-align: center; font-size: 14px; font-weight: 600; font-family: 'futura-pt',sans-serif; color: red; text-transform: uppercase;}
+  .PR_Item_WasSave{display: block; min-height: 24px; text-align: center;}
+  #PR .PR_Wrapper .PR_Saving{font-size: 15px;}
+  #accountMain > div{width: 100%;}
+
+  #PR.PR_Flash{background-attachment: initial; background-size: 100%;}
+  #PR.PR_Flash .PR_Wrapper .PR_Categories{width: 100%;}
+  .PR_Prod_Class .PR_Class_Outer, #PR .PR_Class_TopRange{width: 90%;}
+  #PR.PR_Basket .PR_Wrapper .PR_Prod .PR_Prod_Item{width: 48%; min-height: 512px; padding: 0 5px 0px 5px;}
+
+  #PR.PR_Flash .PR_Wrapper h2{font-size: 2rem;}
+  #PR.PR_Flash .PR_Wrapper #dealsLayoutContainer{padding: 0px;}
+
+  #PR.PR_Flash_Main h2{font-size: 2rem;}
+
+
+
+  #PR.PR_Flash .PR_Wrapper{padding-top: 0px;}
+#PR.PR_Flash .PR_back_wrapper{padding-top: 20px !important; padding-right: 5px; align-items: flex-end;}
+#PR.PR_Flash .PR_back_wrapper a{color: #fff; font-size: 13px; font-family: Montserrat,sans-serif; font-weight: 900; text-transform: uppercase;}
+#PR.PR_Flash .PR_Flash--shop{background-color: #fff; color: #fd0400; text-align: center; font-size: 35px; font-weight: 800; font-family: futura-pt,sans-serif; text-transform: uppercase; padding: 20px; border-radius: 5px; margin-bottom: 40px;}
+#PR.PR_Flash .PR_Flash--shop:hover{text-decoration: underline;}
+
+}
+@media only screen and (max-width: 500px){
+  #PR_MiniPopup_Background{visibility: visible; display: block; padding: 0px 10px;}
+  #PR_MiniPopup_Background #PR_MiniPopup{width: 100%; top: 10px; padding: 5px;}
+  #PR_MiniPopup_Background #PR_MiniPopup .PR_MiniB_AddedMsg{font-size: 1.8rem; text-align: center; margin-bottom: 20px;}
+  .PR_MiniB_AddedMsg:before{font-size: 25px; padding-right: 0px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC{flex-wrap: wrap;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item{width: 48%; max-width: 48%; margin-bottom: 10px; margin: 3px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB{padding: 0px 5px;}
+  #PR #backBtn{width: 100%;}
+  .PR_Flash--footer{font-size: 2rem !important;}
+  .PR_Flash--shop{font-size: 30px; margin: 0;}
+}
+
+@media only screen and (max-width: 320px){
+  #PR_MiniPopup_Background #PR_MiniPopup .PR_MiniB_AddedMsg{font-size: 1rem;}
+  #PR_MiniPopup_Background #PR_MiniPopup h2{font-size: 1.2rem;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item{width: 47%; max-width: 47%;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Title > a{font-size: 13px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Img .MiniPopup_Img{width: 100px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_Was{font-size: 13px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_ExVat{font-size: 20px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_IncVat{font-size: 13px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_MoreInfo_CC > a{font-size: 13px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_ATB .MiniB_Btn_IN{font-size: 13px;}
+  #PR_MiniPopup .PR_MiniPopup_ItemCC #PR_MiniPopup_Item .PR_MiniPopup_Pricing .MiniB_Saving{font-size: 16px;}
+}
+
+@media (max-width: 1440px){
+  .Back2WorkRegion > h2{width:90%;}
+}
+
+@media(max-width:767px){
+  .Back2WorkContainer{padding: 10px;}
+  .Back2WorkRegion{padding: 0px;}
+  .Back2WorkRegion > h2{color: #fff; font-size: 10vw; text-align: center; font-family: 'Montserrat',sans-serif; font-weight: 900; text-transform: uppercase; text-shadow: 2px 4px #875e4c;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  #PR{padding: 20px;}
+  #PR .PR_Wrapper .PR_Prod .PR_Prod_Item {width: 272px;}
+  #PR.PR_DIY .PR_Wrapper, #PR.PR_Clearance .PR_Wrapper .PR_Categories{width: 100% !important;}
+  #PR .PR_Wrapper .PR_Saving{float: right;}
+  #PR #backBtn{width: 100%;}
+  #PR.PR_BuyAgain{padding: 0px;}
+  #PR.PR_Outdoor .PR_Wrapper{width: 100%;}
+  #PR_SubHeading.PR_ClearanceSubHead{width: 100%; padding: 10px;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px){
+  #PR.PR_Clearance, #PR_Header.PR_Clearance, .clearance .saleAllBanner, .clearance .saleCatcontainer{background-attachment: inherit;}
+  #PR.PR_Outdoor .PR_Wrapper .PR_Prod .PR_Prod_Item{width: 48%;}
+}
