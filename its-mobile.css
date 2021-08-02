@@ -8781,62 +8781,6 @@ box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.35); border-radius: 5px;}
 .pdList .savePercentage{color: #fff; text-align: center; width: 100%; font-family: 'Roboto Condensed',sans-serif; font-weight: 700; font-style: normal; font-size: 18px;}
 
 
-	/* COVID-19 (CORONA VIRUS) */
-	#COVIDStrip{background-color: #7fba23; width: 100%;}
-	#COVIDStrip .COVIDStripWrapper{display: flex; width: 100%; justify-content: center; align-items: center; padding: 15px 0px;}
-	#COVIDStrip .COVIDStripWrapper a, #COVIDStrip .COVIDStripWrapper a > span{font-family: 'Roboto Condensed', sans-serif; font-size: 20px; text-transform: uppercase; color: #fff; font-weight: 700; text-align: center;}
-	#COVIDStrip .COVIDStripWrapper a > span{text-decoration: underline; display: block; margin-top: 5px; font-size: 16px;}
-
-	#COVID{width: 100%; background: #f7f7f7;}
-	#COVID .covidWrapper{width: 100%; background-color: #fff; margin: 0 auto; padding: 10px; border: 1px solid #eaeaea;}
-	#COVID .covidWrapper .covidRow{width: 100%; margin-top: 20px;}
-	#COVID .covidWrapper .covidRow ul{margin-bottom: 20px;}
-	#COVID .covidWrapper .covidRow h2, #COVID .covidWrapper .covidRow h3{font-family: 'Roboto Condensed', sans-serif; font-size: 40px; font-weight: 700; color: #7fba23;}
-	#COVID .covidWrapper .covidRow h3{font-size: 25px;}
-	#COVID .covidWrapper .covidRow .covidServiceRed{color: red;}
-	#COVID .covidWrapper .covidRow p.statusUpdate{font-weight: 600; font-family: 'Nunito',sans-serif; color: #7fba23;}
-	#COVID .covidWrapper .covidRow p{margin-bottom: 22px;}
-	#COVID .covidWrapper .covidRow p, #COVID .covidWrapper .covidRow ul > li{font-family: 'Nunito',sans-serif; font-size: 16px; list-style: disc; list-style-position: inside;}
-	#COVID .covidWrapper .covidRow ul > li{}
-	#COVID .covidWrapper .covidSigned{margin-bottom: 60px;}
-	#COVID .covidWrapper .covidSigned p, #COVID .covidWrapper .covidSigned strong{font-family: 'Nunito',sans-serif; font-size: 16px;}
-
-	#COVID .covidWrapper #covidServiceContainer{display: flex; flex-direction: column;}
-
-	#COVID .covidWrapper .covidServiceStatus{margin: 20px 0px;}
-	#COVID .covidWrapper .covidServiceStatus h4, #COVID .covidWrapper .covidServiceStatus h4 > a, #COVID .covidWrapper .covidServiceStatus p, #COVID .covidWrapper .covidServiceStatus p > span{font-family: 'Nunito',sans-serif; font-size: 20px;}
-	#COVID .covidWrapper .covidServiceStatus p, #COVID .covidWrapper .covidServiceStatus p > span{font-size: 18px;}
-	#COVID .covidWrapper .covidServiceStatus p > a{font-family: 'Nunito',sans-serif; font-size: 16px;}
-	#COVID .covidWrapper .covidServiceStatus p > a:hover{}
-	#COVID .covidWrapper .covidServiceStatus h4{width: 100%; text-align: left;}
-	#COVID .covidWrapper .covidServiceStatus h4 > a{}
-	#COVID .covidWrapper .covidServiceStatus h4 > a:hover{}
-	#COVID .covidWrapper .covidServiceStatus p > span{margin-left: 5px;}
-	#COVID .covidWrapper .covidServiceStatus h3{font-size: 20px; font-family: 'Nunito',sans-serif; margin-bottom: 5px;}
-	#COVID .covidWrapper .covidServiceStatus ul{margin-bottom: 10px;}
-	#COVID .covidWrapper .covidServiceStatus ul li{font-family: 'Nunito',sans-serif; font-size: 16px;}
-	#COVID .covidWrapper .covidServiceStatus .covidServiceGreen{color: #7fba23; margin-bottom: 10px; font-size: 18px; font-weight: 600;}
-	#COVID .covidWrapper .covidServiceStatus .covidServiceGreen i{margin-left: 10px;}
-	#COVID .covidWrapper .covidServiceStatus .covidServiceRed{color: red; margin-bottom: 10px; font-size: 20px; font-weight: 600;}
-	#COVID .covidWrapper .covidServiceStatus .covidCCTimes{margin-bottom: 5px;}
-
-	#COVID .covidDeliverBanner{display: flex; width: 100%; margin-bottom: 50px; flex-direction: column;}
-	#COVID .covidDeliverBanner div > img{width: 100%; margin-bottom: 10px;}
-	#COVID .covidDeliverBanner div > h2{text-align: center; font-size: 25px; font-weight: 900; font-family: futura-pt,Arial,Helvetica,sans-serif; color: #e11828; text-transform: uppercase;}
-	#COVID .covidDeliverBanner div > a{background-color: #e11828; color: #fff; font-size: 20px;margin: 20px 0 0;padding: 10px 20px; border-radius: 50px; font-family: futura-pt,Arial,Helvetica,sans-serif; font-weight: 600; display: flex; justify-content: center;}
-
-	.branchLocationInnerWrapper > #COVID{background-color: #fff;}
-
-	/* COVID 19 - CLOSURES */
-	#covidClosures{width: 100%; background-color: #fee420; display: flex; justify-content: center; align-items: center; padding: 30px 0px; margin-bottom: 30px;}
-	#covidClosures .covidClosureWrapper{width: 1200px; display: flex; flex-direction: column;justify-content: center; align-items: center;}
-	#covidClosures .covidClosureWrapper > h2{text-align: center; font-size: 50px; font-weight: 900; font-family: futura-pt,Arial,Helvetica,sans-serif; color: #0a0a0a;}
-	#covidClosures .covidClosureWrapper > p{font-size: 20px; font-family: roboto; text-align: center;}
-	#covidClosures .covidClosureWrapper > a{background-color: #e11828; color: #fff; font-size: 20px; margin: 20px 0px 0px; padding: 10px 20px; border-radius: 50px; font-family: futura-pt,Arial,Helvetica,sans-serif; font-weight: 600;}
-	#covidClosures .covidClosureWrapper > a:hover{text-decoration: underline;}
-	.covidClosed{color: #e11828; font-size: 17px; margin: 5px 0px 20px 0px; font-family: futura-pt,Arial,Helvetica,sans-serif; font-weight: 600; text-align: center; width: 100%; display: flex; justify-content: center;}
-.branchWhatsNewTitle{text-align: center; font-size: 50px; font-weight: 900; font-family: futura-pt,Arial,Helvetica,sans-serif; color: #0a0a0a;}
-
 #branchWhatsNew img, .branchLocationBanner img{margin-bottom: 20px;}
 
 .desktopImg{display: none !important;}
@@ -8857,7 +8801,7 @@ box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.35); border-radius: 5px;}
 #holidayDeliveryTimes .holidayTimesWrapper .holidayTimeClosed{color: red}
 #holidayDeliveryTimes .holidayTimesWrapper .holidayTimeOpen{color:#1ca902;}
 
-#covidServiceContainer > div{border-bottom: 2px solid #eaeaea;}
+
 #deliveryOpBanner{background-color: #7fba23; width: 100%; padding: 25px 0; margin: 20px 0 10px 0px;}
 #deliveryOpBanner .deliveryOpWrapper{width: 100%; display: flex; justify-content: center; align-items: center;}
 #deliveryOpBanner .deliveryOpWrapper h2{font-family: 'Roboto Condensed',sans-serif; font-size: 25px; text-transform: uppercase; color: #fff; font-weight: 700; text-align: center;}
